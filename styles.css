@@ -3,6 +3,7 @@
 :root {
     --primary-color: lightblue;
     --secondary-color: black;
+    --element-color: darkblue;
     font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -12,6 +13,11 @@ header {
     border-radius: 5px;
     text-align: center;
     padding: 1rem;
+}
+header a {
+    color: var(--primary-color);
+    display: block;
+    text-decoration: none;
 }
 body {
   background-color: var(--primary-color);
