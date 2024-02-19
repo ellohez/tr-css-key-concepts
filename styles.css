@@ -53,6 +53,9 @@ li a {
     text-decoration: none;
     text-align: center;
 }
+li:nth-child(odd){
+    background-color: var(--menu-dark);
+}
 form {
     margin-top: 0.5em;
 }
