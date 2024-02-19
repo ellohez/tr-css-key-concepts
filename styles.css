@@ -79,3 +79,10 @@ form div {
     margin: 30px;
     height: 30px;
 }
+input {
+    border-width: 1.5px;
+    border-radius: 3px; 
+    border: none;
+    border-bottom: 2px solid var(--element-color);
+    background-color: var(--primary-color);
+}
