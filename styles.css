@@ -34,6 +34,11 @@ section {
     display: block;
 }
 /* Styling for the navbar list */
+ul a:hover {
+    background-color: var(--element-color);
+    color: var(--primary-color);
+    font-size: larger;
+}
 ul {
     list-style-type: none;
     width: 200px;
@@ -45,15 +50,14 @@ ul {
 li {
     float: left;
     background-color: var(--menu-light);
-    padding-top: 1em;
+    /* padding-top: 1em; */
 }
 li a {
     display: block;
-    padding: 8px;
+    padding: 14px 16px;
     width: 200px;
     height: 40px;
     color: white;
-    padding: 8px 16px;
     text-decoration: none;
     text-align: center;
 }
@@ -64,6 +68,13 @@ li:nth-child(odd){
 form div {
     margin-top: 15px;
     padding: 3px;
+}
+fieldset {
+    /* padding : 2px; */
+    border-color: var(--element-color);
+}
+legend {
+    padding: 10px;
 }
 [name="search"] {
     margin-left: 10px;
