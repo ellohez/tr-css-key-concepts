@@ -1,5 +1,5 @@
 /* Stylesheet for the Tech Returners surgery */
-
+/* Styles for the main sections */
 :root {
     --primary-color: lightblue;
     --secondary-color: black;
@@ -26,10 +26,14 @@ body {
   color: var(--secondary-color);
   margin: 30px; 
 }
+.top-section {
+    margin-top: 5em;
+}
 section {
     margin-top: 3em;
     display: block;
 }
+/* Styling for the navbar list */
 ul {
     list-style-type: none;
     width: 200px;
@@ -56,6 +60,7 @@ li a {
 li:nth-child(odd){
     background-color: var(--menu-dark);
 }
+/*  Form styles */
 form {
     margin-top: 0.5em;
 }
@@ -63,13 +68,14 @@ form div {
     margin-top: 15px;
     padding: 3px;
 }
+[name="search"] {
+    margin-left: 10px;
+    margin-top: 20px;
+}
 #submit-button {
     background-color: var(--element-color); 
     color: var(--primary-color);
     width: 10%;
     margin: 30px;
     height: 30px;
-}
-.top-section {
-    margin-top: 5em;
 }
