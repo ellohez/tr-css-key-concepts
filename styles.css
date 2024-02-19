@@ -24,3 +24,10 @@ body {
   color: var(--secondary-color);
   margin: 30px; 
 }
+section {
+    margin-top: 3em;
+    display: block;
+}
+form {
+    margin-top: 0.5em;
+}
