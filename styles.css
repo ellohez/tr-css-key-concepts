@@ -31,3 +31,26 @@ section {
 form {
     margin-top: 0.5em;
 }
+ul {
+    list-style-type: none;
+    width: 200px;
+    min-width: max-content;
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+}
+li {
+    float: left;
+    background-color: var(--menu-light);
+    padding-top: 1em;
+}
+li a {
+    display: block;
+    padding: 8px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
