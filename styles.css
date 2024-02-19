@@ -22,9 +22,9 @@ header a {
     text-decoration: none;
 }
 body {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  margin: 30px; 
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 30px; 
 }
 .top-section {
     margin-top: 5em;
@@ -61,9 +61,6 @@ li:nth-child(odd){
     background-color: var(--menu-dark);
 }
 /*  Form styles */
-form {
-    margin-top: 0.5em;
-}
 form div {
     margin-top: 15px;
     padding: 3px;
@@ -84,4 +81,20 @@ input {
     border-width: 3px;
     border-bottom: 2px solid var(--element-color);
     background-color: var(--primary-color);
+}
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="tel"] {
+    width: 80%;
+    padding: 10px 15px;
+}
+input[type="date"] {
+    padding: 10px;
+    width: 200px;
+
+} 
+input[type="checkbox"] {
+    padding: 5px;
+    margin: 15px;;
 }
