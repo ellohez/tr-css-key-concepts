@@ -31,6 +31,10 @@ section {
 form {
     margin-top: 0.5em;
 }
+form div {
+    margin-top: 15px;
+    padding: 3px;
+}
 ul {
     list-style-type: none;
     width: 200px;
