@@ -1,1 +1,12 @@
 /* Stylesheet for the Tech Returners surgery */
+
+:root {
+    --primary-color: lightblue;
+    --secondary-color: black;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
